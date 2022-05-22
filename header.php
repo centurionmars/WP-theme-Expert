@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Clean Blog - Start Bootstrap Theme</title>
+    <title><?php wp_head(); ?></title>
 
     <!-- Bootstrap core CSS -->
     <link href="<?php echo get_template_directory_uri(); ?>/assests/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">

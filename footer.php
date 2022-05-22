@@ -40,7 +40,7 @@
 
     <!-- Custom scripts for this template -->
     <script src="<?php echo get_template_directory_uri(); ?>/assests/js/clean-blog.min.js"></script>
-
+    <?php wp_footer(); ?>
 </body>
 
 </html>
