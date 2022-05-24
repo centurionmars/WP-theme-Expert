@@ -21,6 +21,12 @@
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
             </ul>
+            <?php wp_nav_menu(
+                    [
+                            'container'      => 'ul',
+                            'theme_location' => 'top-nav',
+                            'before'         => '<i class="fa fa-shopping-cart"></i>',
+                    ]); ?>
         </div>
     </div>
 </nav>
